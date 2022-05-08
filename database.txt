@@ -1,0 +1,7 @@
+create database tienda;
+use tienda;
+insert into productos(nombre,descripcion,categoria,existencias) values('jabon','pues jabon man','limpieza','5'); 
+insert into productos(nombre,descripcion,categoria,existencias) values('shampoo','pues shampoo man','limpieza','5'); 
+insert into productos(nombre,descripcion,categoria,existencias) values('Queso','pues queso man','comida','5'); 
+insert into productos(nombre,descripcion,categoria,existencias) values('Leche','pues queso man','comida','5'); 
+select*from productos;
